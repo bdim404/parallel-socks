@@ -90,15 +90,15 @@ curl --socks5 127.0.0.1:1080 -w "\nTime: %{time_total}s\n" -o /dev/null -s http:
 ## Example Output
 
 ```
-2026/01/04 00:58:10 listening on 127.0.0.1:9080 with 3 upstreams
-2026/01/04 00:58:18 accepted connection from 127.0.0.1:59075
-2026/01/04 00:58:18 socks5: sending connect request (20 bytes) to www.baidu.com:443
-2026/01/04 00:58:18 socks5: sending connect request (20 bytes) to www.baidu.com:443
-2026/01/04 00:58:18 socks5: sending connect request (20 bytes) to www.baidu.com:443
+2026/01/04 00:58:10 listening on 127.0.0.1:1080 with 3 upstreams
+2026/01/04 00:58:18 accepted connection from 127.0.0.1:xxxxx
+2026/01/04 00:58:18 socks5: sending connect request (20 bytes) to www.example.com:443
+2026/01/04 00:58:18 socks5: sending connect request (20 bytes) to www.example.com:443
+2026/01/04 00:58:18 socks5: sending connect request (20 bytes) to www.example.com:443
 2026/01/04 00:58:19 socks5: received reply: ver=5, rep=0, rsv=0, atyp=1
 2026/01/04 00:58:19 socks5: read bind addr: 0.0.0.0:0
 2026/01/04 00:58:19 socks5: connect handshake completed successfully
-2026/01/04 00:58:19 ✓ www.baidu.com:443 -> upstream3 (198.18.169.1:1082) (678ms)
+2026/01/04 00:58:19 ✓ www.example.com:443 -> upstream3 (x.x.x.x:xxxx) (678ms)
 2026/01/04 00:58:19 socks5: received reply: ver=5, rep=0, rsv=0, atyp=1
 2026/01/04 00:58:19 socks5: read bind addr: 0.0.0.0:0
 2026/01/04 00:58:19 socks5: connect handshake completed successfully

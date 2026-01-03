@@ -1,7 +1,8 @@
 {
+  "log_level": "info",
   "listeners": [
     {
-      "listen": "127.0.0.1:1080",
+      "listen": "[::1]:1080",
       "socks": [
         {
           "name": "US-West-1",
@@ -18,7 +19,7 @@
       ]
     },
     {
-      "listen": "127.0.0.1:1081",
+      "listen": "[::1]:1081",
       "socks": [
         {
           "name": "EU-Central-1",
